@@ -28,6 +28,13 @@ Installation and usage is pretty easy (provided you're on Ubuntu, otherwise it's
 
     #Enjoy :)
 
+OSX notes:
+* If you can't load `AppKit`, try `sudo port select --set python python27-apple`.
+* If you can't load `pygame`, try tweaking your path. This worked for me:
+
+    export PYTHONPATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/
+
+
 ##Why on Earth!?
 
 Here at Hacker School people are quite passionate about keyboards, so there is a lot of clacking noise in the background (not that I would be disturbed by this ;)). Personally, I work on a Thinkpad T430 and love its [*island-style keyboard*](http://blog.laptopmag.com/thinkpad-type-off-is-lenovos-new-island-style-keyboard-better-or-worse), so I don't want to replace it with a different one. Hence I thought it might be interesting to see if I could produce a convincing simulation of "real" keyboard sounds using some Python magic :)
