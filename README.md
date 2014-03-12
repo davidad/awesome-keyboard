@@ -2,6 +2,12 @@
 
 Do you also miss the good ole days of clunky, **clicky** computer keyboards ([like this one](http://en.wikipedia.org/wiki/Model_M_keyboard))? Use this script to make your laptop keyboard sound awesome again!
 
+##I Want Demo!
+
+[You can see a small demo of the tool in action on Youtube](http://youtu.be/-eANf3QWStU) 
+
+In the video you can probably notice a small lag between key strokes and the corresponding clicks, this is *mostly* due to the screen recorder that has been used.
+
 ##What is it?
 
 A small Python script that simulates the sound of classic computer keyboards under **Ubuntu**. Currently, the only available "*sound theme*"" is a simulation of the **IBM Model M** (the quality of the sound files is still far from ideal though, I hope to improve this soon).

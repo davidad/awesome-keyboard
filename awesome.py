@@ -10,7 +10,6 @@ print path
 import random
 
 sound_files = {
-    'pings' : ["ping_1.ogg"],
     'clicks' : ["model_m/new_click_2.ogg","model_m/new_click_4.ogg","model_m/new_click_5.ogg","model_m/new_click_6.ogg","model_m/new_click_7.ogg","model_m/new_click_8.ogg"],
     'space' : ["model_m/click_6.ogg","model_m/click_1.ogg","model_m/click_2.ogg","model_m/click_3.ogg"],
     'carriage_returns' : ["model_m/carriage_return_1.ogg","model_m/carriage_return_2.ogg","model_m/carriage_return_3.ogg"],
