@@ -6,6 +6,22 @@ Do you also miss the good ole days of clunky, **clicky** computer keyboards ([li
 
 A small Python script that simulates the sound of classic computer keyboards under **Ubuntu**. Currently, the only available "*sound theme*"" is a simulation of the **IBM Model M** (the quality of the sound files is still far from ideal though, I hope to improve this soon).
 
+##Installation & Usage
+
+Installation and usage is pretty easy (provided you're on Ubuntu, otherwise it's impossible ;))
+
+    #Download code and sound files
+    git clone git@github.com:adewes/awesome-keyboard.git
+    cd awesome-keyboard
+
+    #Install dependencies
+    pip install -R requirements.txt #install pygame and xlib
+
+    #Run it
+    python awesome.py
+
+    #Enjoy :)
+
 ##Why on Earth!?
 
 Here at Hacker School people are quite passionate about keyboards, so there is a lot of clacking noise in the background (not that I would be disturbed by this ;)). Personally, I work on a Thinkpad T430 and love its [*island-style keyboard*](http://blog.laptopmag.com/thinkpad-type-off-is-lenovos-new-island-style-keyboard-better-or-worse), so I don't want to replace it with a different one. Hence I thought it might be interesting to see if I could produce a convincing simulation of "real" keyboard sounds using some Python magic :)
